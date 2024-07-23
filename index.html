@@ -557,11 +557,11 @@
               </svg>
             </div>
           </div>
-          <div class="modal-label">
-            <label for="user-text" class="modal-for-label">Comment</label>
+          <div class="modal-label modal-label-comment">
+            <label for="user-comment" class="modal-for-label">Comment</label>
             <textarea
-              name="user-text"
-              id="user-text"
+              name="user-comment"
+              id="user-comment"
               class="modal-comment"
               placeholder="Text input"
             ></textarea>
@@ -569,16 +569,18 @@
           <div class="modal-label modal-checkbox">
             <input
               type="checkbox"
-              name="privacy-policy"
-              id="privacy-policy"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
               class="modal-check visually-hidden"
             />
-            <label for="privacy-policy" class="modal-label-check"
+            <label for="user-privacy" class="modal-label-check"
               ><span class="label-check-span"
-                ><svg width="16" height="12">
+                ><svg width="10" height="8">
                   <use href="./images/icons.svg#icon-Vector"></use></svg></span
-              >I accept the terms and conditions of the Privacy Policy</label
+              >I accept the terms and conditions of the<a class="modal-link"
+                >Privacy Policy</a
+              ></label
             >
           </div>
           <button type="submit" class="modal-button">Send</button>
