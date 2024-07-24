@@ -247,6 +247,9 @@ address {
 }
 .team-list-item {
   width: calc((100% - 3 * 24px) / 4);
+  background-color: #fff;
+}
+.team-list-img {
   background-color: url("path_to_image");
 }
 .team-social {
@@ -541,7 +544,6 @@ address {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  /* padding: 72px 24px 24px 24px; */
 }
 .backdrop.is-open {
   opacity: 1;
@@ -696,7 +698,7 @@ address {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   gap: 8px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -716,6 +718,7 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-right: 8px;
 }
 .modal-check:checked + .modal-label-check .label-check-span {
   background-color: #404bbf;
