@@ -517,7 +517,6 @@ address {
 
   cursor: pointer;
   background-color: #4d5ae5;
-  border-color: none;
   border: none;
 }
 .btm-icon-telegram {
@@ -541,7 +540,7 @@ address {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  padding: 72px 24px 24px 24px;
+  /* padding: 72px 24px 24px 24px; */
 }
 .backdrop.is-open {
   opacity: 1;
@@ -559,7 +558,7 @@ address {
   border-radius: 4px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
     0 2px 1px 0 rgba(0, 0, 0, 0.2);
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop:not(.is-open) .modal {
@@ -728,6 +727,7 @@ address {
 }
 .modal-link {
   color: #4d5ae5;
+  display: inline-flex;
 }
 .modal-button {
   border-radius: 4px;
