@@ -564,7 +564,6 @@ address {
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -50%) scale(1.5);
 }
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .modal-btm {
   width: 24px;
   height: 24px;
@@ -597,28 +596,10 @@ address {
   border-radius: 100%;
   border: none;
 }
-/* .modal-icon-btm:hover {
+.modal-btm:hover .modal-icon-btm {
   fill: #fff;
 }
-.modal-btm:hover + .modal-icon-btm {
-  fill: #fff;
-} */
-.modal-btm:hover,
-.modal-btm:focus + .modal-icon-btm {
-  fill: #fff;
-}
-/* .modal-icon-btm:hover,
-.modal-icon-btm:focus {
-  fill: #fff;
-} */
-/* .modal-icon-btm .modal-btm:hover,
-.modal-btm:focus + .modal-icon-btm {
-  fill: #fff;
-} */
-/* !!!!!!!!!!!!!!!!!!!!! */
-/* .backdrop-modal {
-  padding: 72px 24px 24px 24px;
-} */
+
 .modal-title {
   font-weight: 500;
   font-size: 16px;
