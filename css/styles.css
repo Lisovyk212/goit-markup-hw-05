@@ -518,6 +518,7 @@ address {
   cursor: pointer;
   background-color: #4d5ae5;
   border-color: none;
+  border: none;
 }
 .btm-icon-telegram {
   fill: #fff;
@@ -596,11 +597,12 @@ address {
   border-radius: 100%;
   border: none;
 }
-.modal-btm:hover,
+.modal-btm:hover .modal-icon-btm {
+  fill: #fff;
+}
 .modal-btm:focus .modal-icon-btm {
   fill: #fff;
 }
-
 .modal-title {
   font-weight: 500;
   font-size: 16px;
@@ -722,6 +724,7 @@ address {
   border-radius: 2px;
   fill: #f4f4fd;
   border: none;
+  display: inline-flex;
 }
 .modal-link {
   color: #4d5ae5;
