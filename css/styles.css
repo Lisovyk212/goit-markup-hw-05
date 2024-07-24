@@ -596,7 +596,8 @@ address {
   border-radius: 100%;
   border: none;
 }
-.modal-btm:hover .modal-icon-btm {
+.modal-btm:hover,
+.modal-btm:focus .modal-icon-btm {
   fill: #fff;
 }
 
